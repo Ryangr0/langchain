@@ -9,7 +9,7 @@ from langchain.schema import BaseLanguageModel
 from langchain.tools.base import BaseTool
 
 
-def initialize_agent(
+def initialize_agent_executor(
     tools: Sequence[BaseTool],
     llm: BaseLanguageModel,
     agent: Optional[AgentType] = None,
